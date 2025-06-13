@@ -46,7 +46,6 @@ user-portal/
 ├── /assets/               # CSS, JS, or image files
 ├── /models/               # Model components
 ├── /db/                   # Possibly DB interaction layer
-└── /.idea/                # JetBrains IDE project config
 ```
 
 ---
@@ -97,6 +96,14 @@ http://localhost/user-portal/
 - Access `dashboard.php`
 - Test uploading a profile picture
 - Use browser Dev Tools to view AJAX requests
+---
+
+## ⚠️ **Image Upload Issue?**
+If profile images fail to upload, make sure the `/uploads` folder is writable:
+```bash
+sudo chmod -R 775 uploads/
+sudo chown -R www-data:www-data uploads/
+```
 
 ---
 
