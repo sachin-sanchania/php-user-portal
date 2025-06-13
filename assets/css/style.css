@@ -1,0 +1,27 @@
+input.error {
+    border:1px solid #99182c;
+}
+label.error {
+    color:#99182c;
+    font-size:small;
+}
+body {
+    background: #f8f9fa;
+}
+.profile-card {
+    max-width: 420px;
+    margin: 50px auto;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 16px;
+}
+.profile-img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 5px solid #fff;
+    margin-top: -75px;
+}
+.logout-btn {
+    margin-top: 20px;
+}
