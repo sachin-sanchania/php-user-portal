@@ -1,6 +1,14 @@
 # 🧑‍💼 User Portal - PHP User Management System
 
-A simple PHP-based user portal that supports registration, login, profile management, and dashboard functionality. This project demonstrates basic user authentication, file upload, and session handling.
+A simple PHP-based user portal that supports registration, login, profile management, and dashboard functionality. This project demonstrates basic user authentication, file upload, and session handling. A secure and well-structured **PHP User Portal** built with the MVC approach.  
+
+This project demonstrates best practices in:
+- 📂 Organizing PHP code using **Models** for cleaner architecture  
+- 🔒 Secure **database connection** with PDO & prepared statements  
+- 👤 User registration, login, and profile management  
+- 📊 Simple dashboard for authenticated users  
+
+Ideal for developers learning **PHP project structure** or building real-world authentication systems.
 
 ---
 
